@@ -27,7 +27,7 @@ gulp.task('live', function() {
         server: {
             baseDir: "./"
         }
-    });
+    }); 
 });
 
 
