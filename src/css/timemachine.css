@@ -93,6 +93,25 @@
     color:white;
 }
 
+#section1 .init-opacity-zero{
+    opacity:0;
+}
+.light-blue{
+    color:rgb(40, 138, 219);
+}
+
+.light-red{
+  color:rgb(192, 104, 104);
+}
+
+.light-green{
+    color:green;
+}
+
+.light-orange{
+    color:rgb(40, 138, 219);
+}
+
 
 @-webkit-keyframes turn-up-down {
     0% {

@@ -5,7 +5,9 @@ $(document).ready(function() {
         afterLoad: function(anchorLink, index) {
             var loadedSection = $(this);
             console.log(index);
-            
+            if(index==1){
+                $("#section1 .fade-in").css("opacity",1);
+            }
 
         },
         onLeave: function(index, nextIndex, direction) {
@@ -50,7 +52,6 @@ $(document).ready(function() {
     wx.ready(function() {
         wx.onMenuShareTimeline({
             title: '这几天的时光书小编全包了，我是第' + joinNo + '个参与“时光书”亲子节的妈妈！', // 分享标题
-
             link: 'www.whiletime.com/dearDay/dear.html', // 分享链接
             imgUrl: 'http://whiletime.com/dearDay/img/sharepic.png', // 分享图标
             success: function() {
